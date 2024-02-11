@@ -1,6 +1,6 @@
 .container
 {
-    padding: 20px;
+    padding: 30px;
     margin: 0;
     border: 0;
     display: flex;
@@ -9,9 +9,53 @@
 }
 .container.one 
 {
-    background-color: rgb(22, 43, 114);
+    background-color: #1F2937;
+}
+.container.one button
+{
+    background-color: #3882F6;
 }
 .container.one.about-text
 {
     flex-direction: column;
+}
+.container.two
+{
+    flex-direction: column;
+    align-items: center;
+}
+.container.two,h3
+{
+    background-color: whitesmoke;
+    justify-content: center;
+    padding-bottom: 0%;
+
+}
+.container.two .illustration 
+{
+    display: flex;
+    flex-direction: row;
+    padding-top: 0px;
+    gap: 20px;
+}
+.container.quote
+{
+    padding: 60px;
+    padding-top: 30px;
+    flex-direction: column;
+    background-color: yellowgreen;
+}
+.container.quote div
+{
+    text-align: right;
+}
+.container.sign-up 
+{
+    background-color: lightblue;
+    margin: 70px;
+}
+.container.sign-up div
+{ 
+   display: block;
+   align-items: center;
 }
