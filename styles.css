@@ -1,4 +1,17 @@
 .container
 {
     padding: 20px;
+    margin: 0;
+    border: 0;
+    display: flex;
+    /* flex-direction: column; */
+    flex: 1 1 auto;
+}
+.container.one 
+{
+    background-color: rgb(22, 43, 114);
+}
+.container.one.about-text
+{
+    flex-direction: column;
 }
